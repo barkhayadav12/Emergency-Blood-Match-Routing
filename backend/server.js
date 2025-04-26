@@ -20,7 +20,7 @@ app.use('/api/hospitals', hospitalRoutes);
 app.use('/api/delivery-partners', deliveryPartnerRoutes);
 
 // Database Connection
-mongoose.connect('mongodb://127.0.0.1:27017/barkha', {
+mongoose.connect('your_mongodb_url', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
